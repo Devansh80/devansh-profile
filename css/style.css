@@ -1,0 +1,128 @@
+/*Color Palette*/
+
+/*Global styles*
+---------------------*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+ h2 {
+	 font-size: 40px;
+	 margin-top: 0;
+ }
+
+a {
+	color: #ef233c;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: auto;
+}
+
+.col-narrow {
+	width: 30%;
+	float: left;
+	min-height: 175px;
+}
+
+.col-wide {
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+	min-height: 175px;
+}
+
+/*Header and Footer
+------------------------*/
+
+header, footer {
+	background-color: #aaf0d1;
+	color: #8d99ae;
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*Header*/
+
+.profile-img {
+	border-radius: 100%;
+}
+
+header h1, header h2, header p{
+	color: black;
+	margin: 0;
+}
+
+/*Footer*/
+
+footer {
+	text-align: center;
+}
+
+.contact-info a {
+	padding: 10px;
+	display: inline-block;
+}
+
+/*Work Experience
+------------------------*/
+
+.work {
+	background-color: #EAF0F1;
+}
+
+.skills {
+    color: black;
+    padding: 8px;
+    font-family: Arial;
+}
+.success {background-color: #EEC213; padding: 12px} /* Green */
+.info {background-color: #2196F3; margin-left: 10px; padding: 12px; color: white;} /* Blue */
+.warning {background-color: #ff9800; margin-left: 10px; padding: 12px} /* Orange */
+.danger {background-color: #f44336; margin-left: 10px; padding: 12px; color: white;} /* Red */
+.cascade {background-color: #e7e7e7; margin-left: 10px; padding: 12px} /* Gray */
+.cpp {background-color: #EA7773; margin-left: 10px; padding: 12px; color: white;}
+.sql {background-color: #BB2CD9; margin-left: 10px; padding: 12px}
+.git {background-color: #E8290B; margin-left: 10px; padding: 12px; color: white;}
+.github {background-color: #45CE30; margin-left: 10px; padding: 12px}
+.linux {background-color: #E83350; margin-left: 10px; padding: 12px; color: white;}
+
+
+
+
+/*Education
+------------------------*/
+
+.education1 {
+	background-color: #74B9FF;
+}
+
+.education {
+	background-color: #8B78E6;
+}
